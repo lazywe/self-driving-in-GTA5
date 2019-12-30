@@ -1,4 +1,4 @@
-**tips：README分中文版和英文版，英文版在下面  
+**tip：README分中文版和英文版，英文版在下面  
 README is divided into Chinese version and English version, English version is at the bottom**
 
 # self-driving-in-GTA5
@@ -67,7 +67,8 @@ https://www.gta5-mods.com/scripts/enhanced-native-trainer-zemanez-and-others
 
 # English：
 # self-driving-in-GTA5
-This project implements autopilot in game GTA5
+This project implements autopilot in game GTA5  
+![Image text](https://github.com/linlihan-1/self-driving-in-GTA5/blob/master/picture/GIF8.gif)  
 
 First, a real player drives the vehicle and collects data at the same time. The data includes images and corresponding operations. Let the computer train with this data, and finally learn to imitate human driving. The above is the end-to-end autonomous driving idea.
 On the basis of the above functions, this project also adds road line detection, object detection and collision detection.
@@ -93,6 +94,7 @@ The usage method and sequence are as follows:
 # mod
 Drive Modes & Custom Vehicle Cameras:  Modify the first-person perspective, or if driving in the first person, most of the screen will be occupied by the scene in the car  
 https://www.gta5-mods.com/scripts/drive-modes#description_tab  
+![Image text](https://github.com/linlihan-1/self-driving-in-GTA5/blob/master/picture/2.png)  
 
 SpeedLimiter:  Limit vehicle speed.Otherwise, according to the game vehicle settings, it will be difficult to control even real players if you keep accelerating.  
 https://www.gta5-mods.com/scripts/speedlimiter-net  
