@@ -80,17 +80,17 @@ The usage method and sequence are as follows:
 4. Start **test_model.py**, manually set the resolution of GTA5 to (1280*720), place it in the upper left corner of the screen (coordinates (0,0)), predict the result by the model, and then the computer will drive the vehicle automatically
 
 # configuration requirements
-1. Route detection will take up some CPU resources, but it has little impact
+1. Route detection will take up some CPU resources, but it has little impact  
 
-2.Because of the use of YOLOv3-3 for object detection and collision detection, **it is recommended to use 6G video memory or above** (you can also use yolov3-tiny, the network is small, the configuration requirements are not as high, but the accuracy is decreased).
+2.Because of the use of YOLOv3-3 for object detection and collision detection, **it is recommended to use 6G video memory or above** (you can also use yolov3-tiny, the network is small, the configuration requirements are not as high, but the accuracy is decreased).  
 
-3.Complete automatic driving, including the above two functions, and a model for real-time decision-making on driving, so this project has two models working together, **it is recommended to use 11G video memory or above**
+3.Complete automatic driving, including the above two functions, and a model for real-time decision-making on driving, so this project has two models working together, **it is recommended to use 11G video memory or above**  
 
 # mod
-Drive Modes & Custom Vehicle Cameras:  Modify the first-person perspective, or if driving in the first person, most of the screen will be occupied by the scene in the car
+Drive Modes & Custom Vehicle Cameras:  Modify the first-person perspective, or if driving in the first person, most of the screen will be occupied by the scene in the car  
 https://www.gta5-mods.com/scripts/drive-modes#description_tab  
 
-SpeedLimiter:  Limit vehicle speed.Otherwise, according to the game vehicle settings, it will be difficult to control even real players if you keep accelerating.
+SpeedLimiter:  Limit vehicle speed.Otherwise, according to the game vehicle settings, it will be difficult to control even real players if you keep accelerating.  
 https://www.gta5-mods.com/scripts/speedlimiter-net  
 
 Enhanced Native Trainer：  A useful modifier that can limit environmental weather changes, prevent wanted by the police, etc., reduce the interference factors of the experiment  
