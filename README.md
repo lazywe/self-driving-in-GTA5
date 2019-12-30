@@ -12,14 +12,14 @@
 # 配置要求
 
 # mod
-Drive Modes & Custom Vehicle Cameras:修改第一人称视角，不然以第一人称开车的话，有大部分画面都被车内占据
+Drive Modes & Custom Vehicle Cameras:修改第一人称视角，不然以第一人称开车的话，有大部分画面都被车内装饰占据
 https://www.gta5-mods.com/scripts/drive-modes#description_tab
 # 修改分辨率
 
 # 文件说明
 alexnet.py：AlexNet神经网络模型，包括一个自己改进过的模型（alexnet_pro）,本项目默认使用原始的AlexNet进行训练，如果有需要，可以在train_model.py中修改要使用的模型。
 
-aug_funcs.py： 图像增强，不过本项目最终取消这个使用功能
+aug_funcs.py：图像增强，不过本项目最终取消这个使用功能
 
 collect_data.py：负责收集训练数据
 
