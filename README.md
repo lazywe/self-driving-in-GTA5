@@ -3,7 +3,7 @@ README is divided into Chinese version and English version, English version is a
 
 # self-driving-in-GTA5
 此项目在游戏GTA5中实现自动驾驶  
-![Image text](https://github.com/linlihan-1/self-driving-in-GTA5/blob/master/picture/GIF6.gif)  
+![Image text](https://github.com/linlihan-1/self-driving-in-GTA5/blob/master/picture/GIF8.gif)  
 首先由真人玩家驾驶车辆，同时搜集数据，数据包括图像和对应的操作。让电脑以这些数据进行训练，最终学会模仿人类开车，以上就是端到端（end-to-end）自动驾驶思想，本项目在实现此基础之上，还增加了道路线检测和目标检测和碰撞检测，以此进一步提高自动驾驶的准确度。
 
 使用方法及顺序如下：
