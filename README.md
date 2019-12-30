@@ -26,11 +26,14 @@ README is divided into Chinese version and English version, English version is a
 # 所需mod
 Drive Modes & Custom Vehicle Cameras:  修改第一人称视角，不然以第一人称开车的话，有大部分画面都被车内装饰占据 
 https://www.gta5-mods.com/scripts/drive-modes#description_tab  
-![Image text](https://github.com/linlihan-1/self-driving-in-GTA5/blob/master/picture/2.png)
+![Image text](https://github.com/linlihan-1/self-driving-in-GTA5/blob/master/picture/2.png)  
+
 SpeedLimiter:  限制车辆速度，不然按游戏车辆设定，一直加速下去的话，即便真人玩家也很难操控  
 https://www.gta5-mods.com/scripts/speedlimiter-net  
+
 Enhanced Native Trainer：  一个很万能的修改器，可以限制环境天气变化，防止被警察通缉等，减少干扰因素  
 https://www.gta5-mods.com/scripts/enhanced-native-trainer-zemanez-and-others  
+
 
 # 文件说明
 **alexnet.py**：AlexNet神经网络模型，包括一个自己改进过的模型（alexnet_pro）,本项目默认使用原始的AlexNet进行训练，如果有需要，可以在**train_model.py**中修改要使用的模型。
