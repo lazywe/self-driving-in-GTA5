@@ -81,7 +81,7 @@ starting_value = 1
 
 
 while True:
-    file_name = 'F:/.../self-driving in GTA5/collect_data/training_data-{}.npy'.format(   # Change it to your path
+    file_name = 'F:/.../self-driving-in-GTA5/collect_data/training_data-{}.npy'.format(   # Change it to your path
         starting_value)
     if os.path.isfile(file_name):
         print(
@@ -139,7 +139,7 @@ def main(file_name, starting_value):
                     print('SAVED')
                     training_data = []
                     starting_value += 1
-                    file_name = 'F:/.../self-driving in GTA5/collect_data/training_data-{}.npy'.format(  # Change it to your path
+                    file_name = 'F:/.../self-driving-in-GTA5/collect_data/training_data-{}.npy'.format(  # Change it to your path
                         starting_value)
 
         keys = key_check()

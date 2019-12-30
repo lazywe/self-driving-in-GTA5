@@ -24,7 +24,7 @@ for i in range(num_files):
     ### IMPORTANT!!! Change your data path accordingly!!! ###
     #########################################################
     training_data = np.load(
-        'F:/.../self-driving in GTA5/collect_data/training_data-{}.npy'.format(i+1))
+        'F:/.../self-driving-in-GTA5/collect_data/training_data-{}.npy'.format(i+1))
     for k, sample in enumerate(training_data):
         # set the path where you want your splti data to be stored
         img_file_dir = "data//images//"+str(i+1)

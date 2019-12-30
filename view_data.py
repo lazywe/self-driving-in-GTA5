@@ -3,7 +3,7 @@ import numpy as np
 import time
 
 
-a = np.load('F:/.../self-driving in GTA5/collect_data/training_data-2.npy')  #Change it to your path
+a = np.load('F:/.../self-driving-in-GTA5/collect_data/training_data-2.npy')  #Change it to your path
 
 # print(a[499][0].shape)
 print(a[10][1])   #press_key
