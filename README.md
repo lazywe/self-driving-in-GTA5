@@ -3,7 +3,7 @@
 **1.README分中文版和英文版，英文版在下面  
 2.记得手动下载model_data/yolo.h5文件并放到项目model_data文件夹里面，因为它是大文件，git clone的时候没有自动下载  
 1.README is divided into Chinese version and English version, English version is at the bottom  
-2.Remember to manually download the model_data / yolo.h5 and put it in the model_data folder.Because it is a large file, it does not download automatically when git clone**  
+2.Remember to  download the model_data / yolo.h5 file manually and put it in the project model_data folder manually.Because it is a large file, it does not download automatically when git clone**  
 
 # self-driving-in-GTA5
 此项目在游戏GTA5中实现自动驾驶  
