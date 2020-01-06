@@ -57,7 +57,7 @@ def batch_generator(image_paths, label_paths, batch_size, is_training):
                 screen = np.load(image_paths[random_index])
             label = np.load(label_paths[random_index])
             screen = cv2.GaussianBlur(screen, (3, 3), 0)
-            screen = screen.reshape(294, 523, 3)
+            screen = screen.reshape(523, 294, 3)
             batch_screen.append(screen)
             batch_label.append(label)
 

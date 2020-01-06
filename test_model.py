@@ -3,7 +3,7 @@ import numpy as np
 from keras.models import load_model
 import random
 import cv2
-
+from PIL import Image
 from grabscreen import grab_screen
 import time
 from getkeys import key_check
@@ -120,15 +120,17 @@ while True:
         img = collision_detection(img, left_top_x, left_top_y, right_bottom_x, right_bottom_y, predict_classes)
 
         new_screen, original_image = process_img(img)
-
+        new_screen, original_image = process_img(image_array)
         screen_for_prediction = cv2.resize(
             original_image, (523, 294))
+
         screen_for_prediction = cv2.GaussianBlur(
             screen_for_prediction, (3, 3), 0)
         # screen_for_prediction = screen_for_prediction.reshape(1,
         #                                                       224, 224, 1)
         screen_for_prediction = screen_for_prediction.reshape(1,
                                                               523, 294, 3)
+
         prediction = model.predict(screen_for_prediction)[0]
         mode_choice = np.argmax(prediction)
         if mode_choice == 0:

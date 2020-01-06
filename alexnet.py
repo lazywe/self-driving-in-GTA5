@@ -21,7 +21,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "0"  #（其中0,1是选择所调用的gpu�
 def alexnet_pro():
     model = Sequential()
     # 1st Convolutional Layer
-    model.add(Conv2D(filters=96, input_shape=(294, 523), kernel_size=(3, 3),
+    model.add(Conv2D(filters=96, input_shape=(523, 294), kernel_size=(3, 3),
                      strides=(4, 4), padding='valid'))
     # model.add(Activation('relu'))
     model.add(Activation(swish))
@@ -110,7 +110,7 @@ def alexnet_pro():
     # Passing it to a dense layer
     model.add(Flatten())
     # 1st Dense Layer
-    model.add(Dense(4096, input_shape=(294 * 523 * 3,)))
+    model.add(Dense(4096, input_shape=(523 * 294 * 3,)))
     model.add(Activation('relu'))
     # Add Dropout to prevent overfitting
     model.add(Dropout(0.4))
@@ -149,7 +149,7 @@ def alexnet_pro():
 def alexnet():
     model = Sequential()
 # 1st Convolutional Layer
-    model.add(Conv2D(filters=96, input_shape=(294, 523, 1), kernel_size=(11, 11),
+    model.add(Conv2D(filters=96, input_shape=(523, 294, 1), kernel_size=(11, 11),
                      strides=(4, 4), padding='valid'))
     model.add(Activation('relu'))
     # Pooling
@@ -192,7 +192,7 @@ def alexnet():
     # Passing it to a dense layer
     model.add(Flatten())
     # 1st Dense Layer
-    model.add(Dense(4096, input_shape=(294*523*3,)))
+    model.add(Dense(4096, input_shape=(523*294*3,)))
     model.add(Activation('relu'))
     # Add Dropout to prevent overfitting
     model.add(Dropout(0.4))
